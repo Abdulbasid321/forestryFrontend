@@ -9,7 +9,8 @@ const Hero = () => {
       <div className="w-full md:w-1/2 text-center md:text-left">
         <h1 className="text-4xl md:text-5xl text-gray-900 mb-6 font-extrabold leading-tight">
           {/* Welcome to <span className="text-green-600">ZIT</span> <br /> */}
-          <span>Empowering Learning Like Never Before</span>
+          <span>Empowering Learning Like Never Before</span><br />
+          <span>College of forestry Computer Science Department</span>
         </h1>
 
         <p className="text-base md:text-lg text-gray-600 mb-8">
@@ -30,7 +31,7 @@ const Hero = () => {
       {/* Image Section */}
       <div className="w-full md:w-1/2 mb-10 md:mb-0 flex justify-center">
         <Image
-          src="/images/log1.jpg"
+          src="/images/forest.jpeg"
           alt="Hero Image"
           width={500}
           height={400}
