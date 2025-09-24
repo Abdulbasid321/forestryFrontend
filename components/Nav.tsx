@@ -113,7 +113,7 @@ const Nav = () => {
             {/* Logo */}
             <div className="flex-1">
                 <Link href="/"> 
-                    <h1 className="font-bold text-md md:text-2xl">ZIT</h1>
+                    <h1 className="font-bold text-sm md:text-xl">FCFJ, comp. science department</h1>
                 </Link>
             </div>  
 

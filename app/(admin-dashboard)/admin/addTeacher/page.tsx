@@ -29,6 +29,7 @@ const AdminLecturersPage = () => {
     setLoading(true);
     try {
       const res = await axios.get('https://forestryapi.onrender.com/lecturers');
+      // const res = await axios.get('https://forestryapi.onrender.com/lecturers');
       setLecturers(res.data);
     } catch (error) {
       console.error('Failed to fetch lecturers:', error);
