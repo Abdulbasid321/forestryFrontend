@@ -20,11 +20,21 @@ const Nav = () => {
             className="flex justify-between items-center w-full px-8 py-5 shadow-md fixed top-0 left-0 z-50 bg-white"
         >
      
-            <div className="flex-1">
+            {/* <div className="flex-1">
                 <Link href="/"> 
                     <h1 className="font-bold text-md md:text-2xl">ZIT</h1>
                 </Link>
-            </div>  
+            </div>   */}
+            <div className="flex-1">
+  <Link href="/">
+    <img
+      src="/images/theLogo.jpg"
+      alt="ZIT Logo"
+      className="h-8 md:h-10 object-contain"
+    />
+  </Link>
+</div>
+
 
   
             <div className="hidden md:flex justify-center flex-1 gap-6">

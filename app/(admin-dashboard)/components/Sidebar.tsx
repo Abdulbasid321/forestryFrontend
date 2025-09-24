@@ -21,7 +21,10 @@ const Sidebar = ({ closeSidebar }: { closeSidebar: () => void }) => {
 
   return (
     <div className="h-screen w-64 bg-gradient-to-b from-green-100 via-white to-green-50 shadow-xl p-6 rounded-r-2xl">
-      <h2 className="text-2xl font-extrabold text-green-600 text-center mb-6 tracking-wide">ZIT Portal</h2>
+      {/* <h2 className="text-2xl font-extrabold text-green-600 text-center mb-6 tracking-wide">ZIT Portal</h2> */}
+      <div className="flex justify-center mb-6">
+      <img src="/images/theLogo.jpg" alt="ZIT Portal Logo" className="h-12 object-contain" />
+    </div>
       <nav className="flex flex-col space-y-2">
         {lists.map((list) => (
           <Link
