@@ -302,7 +302,7 @@ export default function PromotionPage() {
 //   };
 const handlePromoteAll = async () => {
   try {
-    await axios.put(`http://localhost:5000/students/promote-all`);
+    await axios.put(`https://forestryapi.onrender.com/students/promote-all`);
     toast.success('All students promoted');
     fetchStudents();
   } catch {
