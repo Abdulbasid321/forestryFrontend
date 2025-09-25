@@ -270,7 +270,8 @@ const AdminCoursesPage = () => {
                 required
               >
                 <option value="">Select Level</option>
-                {[100, 200, 300, 400].map((lvl) => (
+                {/* {[100, 200, 300, 400].map((lvl) => ( */}
+                  {["NDI", "ND2"].map((lvl) => (
                   <option key={lvl} value={String(lvl)}>
                     {lvl} Level
                   </option>
@@ -283,8 +284,8 @@ const AdminCoursesPage = () => {
                 required
               >
                 <option value="">Select Semester</option>
-                <option value="First Semester">1st</option>
-                <option value="Second Semester">2nd</option>
+                <option value="First Semester">First Semester</option>
+                <option value="Second Semester">Second Semester</option>
               </select>
               <select
                 value={department}
