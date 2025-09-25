@@ -254,7 +254,7 @@ const StudentPaymentPage = () => {
           className="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
           required
         >
-          <option value="">Select Term</option>
+          <option value="">Select Semester</option>
           <option value="1st">1st Semester</option>
           <option value="2nd">2nd Semester</option>
           {/* <option value="3rd">3rd Term</option> */}
