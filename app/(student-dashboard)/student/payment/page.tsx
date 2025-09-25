@@ -255,9 +255,9 @@ const StudentPaymentPage = () => {
           required
         >
           <option value="">Select Term</option>
-          <option value="1st">1st Term</option>
-          <option value="2nd">2nd Term</option>
-          <option value="3rd">3rd Term</option>
+          <option value="1st">1st Semester</option>
+          <option value="2nd">2nd Semester</option>
+          {/* <option value="3rd">3rd Term</option> */}
         </select>
 
         <select
@@ -268,8 +268,8 @@ const StudentPaymentPage = () => {
         >
           <option value="">Select Payment Type</option>
           <option value="Tuition">Tuition</option>
-          <option value="Exam Fee">Exam Fee</option>
-          <option value="Library Fee">Library Fee</option>
+          <option value="Exam Fee">Departmental Due</option>
+          {/* <option value="Library Fee">Library Fee</option> */}
         </select>
 
         <input
