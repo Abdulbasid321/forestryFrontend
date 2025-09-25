@@ -12,7 +12,7 @@ const Sidebar = ({ closeSidebar }: { closeSidebar: () => void }) => {
     { id: 3, name: "Departments", path: "/admin/department", icon: GraduationCap },
     { id: 4, name: "Courses", path: "/admin/courses", icon: BookAIcon },
     { id: 5, name: "Add Students", path: "/admin/addStudent", icon: Users },
-    { id: 6, name: "Add Teacher", path: "/admin/addTeacher", icon: MdPayments },
+    { id: 6, name: "create Lecturer", path: "/admin/addTeacher", icon: MdPayments },
     { id: 7, name: "Promote", path: "/admin/promote", icon: MdPayments },
     { id: 8, name: "Results", path: "/admin/result", icon: BookAIcon },
     { id: 9, name: "Documents", path: "/admin/documents", icon: BookAIcon },
